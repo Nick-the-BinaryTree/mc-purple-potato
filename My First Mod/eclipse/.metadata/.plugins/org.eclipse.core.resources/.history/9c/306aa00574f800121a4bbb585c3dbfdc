@@ -1,0 +1,16 @@
+
+public class Run {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Block BestBlock = new Block(5, 1, true, "LiquidCheddar");
+		System.out.println (BestBlock.blockID);
+		System.out.println (BestBlock.durability);
+		System.out.println (BestBlock.isVisible);
+		System.out.println (BestBlock.name);
+	}
+
+}

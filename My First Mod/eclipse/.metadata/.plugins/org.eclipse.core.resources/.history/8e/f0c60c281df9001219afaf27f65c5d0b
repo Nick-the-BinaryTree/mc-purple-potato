@@ -1,0 +1,27 @@
+package net.minecraft.src;
+
+public class mod_Footprints extends BaseMod {
+
+	public static Block myFirstBlock = new Block(174, Material.wood)
+	.setUnlocalizedName("TurtleMatter")
+	.setCreativeTab(CreativeTabs.tabMisc)
+	.setHardness(1.0f)
+	.setLightValue(.1f);
+	
+	public static Item MegaPotato = new ItemFood(175, 176, true)
+	.setUnlocalizedName("MegaPotato")
+	.setCreativeTab(CreativeTabs.tabMisc)
+	.setPotionEffect(PotionHelper.ghastTearEffect);
+	
+	public String getVersion()
+{
+		return "Version 1.0";
+		}
+	
+	public void load(){
+	ModLoader.registerBlock(myFirstBlock);
+	ModLoader.addName(myFirstBlock, "Turtle Matter");
+	ModLoader.addName(MegaPotato, "Mega Potato");
+	ModLoader.addRecipe(new ItemStack(MegaPotato, 1), new Object[]{"WWW", "WWW", "WWW", 'W', Item.potato});
+}
+}

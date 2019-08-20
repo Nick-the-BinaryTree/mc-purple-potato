@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="net.minecraft.src.ItemFood"/>
+<fullyQualifiedTypeName name="net.minecraft.src.PotionHelper"/>
+<fullyQualifiedTypeName name="net.minecraft.src.Potion"/>
+<fullyQualifiedTypeName name="net.minecraft.src.EntityArrow"/>
+<fullyQualifiedTypeName name="net.minecraft.src.MagicalPotato"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="net.minecraft.src.mod_Footprints"/>
+<fullyQualifiedTypeName name="net.minecraft.src.DamageSource"/>
+<fullyQualifiedTypeName name="net.minecraft.src.World"/>
+</qualifiedTypeNameHistroy>

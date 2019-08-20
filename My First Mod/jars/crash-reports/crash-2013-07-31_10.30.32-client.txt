@@ -1,0 +1,45 @@
+---- Minecraft Crash Report ----
+// Who set us up the TNT?
+
+Time: 7/31/13 10:30 AM
+Description: Exception occured in ModLoader
+
+java.lang.ExceptionInInitializerError
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance0(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at net.minecraft.src.ModLoader.addMod(ModLoader.java:366)
+	at net.minecraft.src.ModLoader.readFromClassPath(ModLoader.java:1221)
+	at net.minecraft.src.ModLoader.init(ModLoader.java:779)
+	at net.minecraft.src.ModLoader.addAllRenderers(ModLoader.java:180)
+	at net.minecraft.src.RenderManager.<init>(RenderManager.java:96)
+	at net.minecraft.src.RenderManager.<clinit>(RenderManager.java:14)
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:417)
+	at net.minecraft.src.MinecraftAppletImpl.startGame(MinecraftAppletImpl.java:41)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:726)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: Slot 174 is already occupied by net.minecraft.src.Block@63ae8b5c when adding net.minecraft.src.Block@583f7824
+	at net.minecraft.src.Block.<init>(Block.java:289)
+	at net.minecraft.src.mod_Footprints.<clinit>(mod_Footprints.java:11)
+	... 16 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.5.2
+	Operating System: Windows 7 (amd64) version 6.1
+	Java Version: 1.7.0_13, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 963971528 bytes (919 MB) / 1038876672 bytes (990 MB) up to 1038876672 bytes (990 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Suspicious classes: Start[net.minecraft.src.IPlayerUsage, ILogAgent, MinecraftFakeLauncher, ...]
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	ModLoader: Mods loaded: 1
+ModLoader 1.5.2

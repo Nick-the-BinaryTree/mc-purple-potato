@@ -1,0 +1,20 @@
+package net.minecraft.src;
+
+public class mod_Footprints extends BaseMod {
+
+	public static Block myFirstBlock = new Block(174, Material.wood)
+	.setUnlocalizedName("TurtleMatter")
+	.setCreativeTab(CreativeTabs.tabMisc)
+	.setHardness(1.0f)
+	.setLightValue(.1f);
+	
+	public String getVersion()
+{
+		return "Version 1.0";
+		}
+	
+	public void load(){
+	ModLoader.registerBlock(myFirstBlock);
+	ModLoader.addName(myFirstBlock, "Turtle Matter");
+	}
+}

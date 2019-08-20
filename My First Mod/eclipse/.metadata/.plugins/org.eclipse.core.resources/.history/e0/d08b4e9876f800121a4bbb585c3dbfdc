@@ -1,0 +1,13 @@
+package net.minecraft.src;
+
+public class mod_Footprints extends BaseMod {
+
+	public String getVersion()
+{
+		return "Version 1.0";
+		}
+	
+	public void load(){
+		
+	}
+}

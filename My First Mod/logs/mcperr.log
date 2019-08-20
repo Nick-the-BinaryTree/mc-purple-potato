@@ -1,0 +1,24 @@
+11:28:12 - !! Modified jar detected. Unpredictable results !!
+11:29:58 - 'runtime\bin\applydiff.exe -p1 -u -i ..\..\temp\temp.patch -d src\minecraft' failed : 1
+11:29:58 - 
+11:29:58 - == ERRORS FOUND ==
+11:29:58 - 
+11:29:58 - 1 out of 1 hunk ignored -- saving rejects to file 'net\minecraft\src\IntegratedSer#'
+11:29:58 - 2 out of 2 hunks FAILED -- saving rejects to file 'net\minecraft\src\RenderBlocks.#'
+11:29:58 - ==================
+11:29:58 - 
+11:30:17 - !! Missing server jar file. Aborting !!
+11:41:21 - FATAL ERROR
+Traceback (most recent call last):
+  File "runtime\decompile.py", line 52, in decompile
+    commands.checkupdates()
+  File "C:\Users\Student\Desktop\Nick H2\My First Mod\runtime\commands.py", line 842, in checkupdates
+    md5_file = md5(fh.read()).hexdigest()
+IOError: [Errno 13] Permission denied
+11:41:52 - FATAL ERROR
+Traceback (most recent call last):
+  File "runtime\decompile.py", line 52, in decompile
+    commands.checkupdates()
+  File "C:\Users\Student\Desktop\Nick H2\My First Mod\runtime\commands.py", line 842, in checkupdates
+    md5_file = md5(fh.read()).hexdigest()
+IOError: [Errno 13] Permission denied

@@ -1,0 +1,16 @@
+Aug 01, 2013 3:43:49 PM net.minecraft.src.ModLoader init
+FINE: ModLoader 1.5.2 Initializing...
+Aug 01, 2013 3:43:49 PM net.minecraft.src.ModLoader readFromClassPath
+FINER: Adding mods from C:\Users\Student\Desktop\Nick H2\My First Mod\eclipse\Client\bin
+Aug 01, 2013 3:43:49 PM net.minecraft.src.ModLoader readFromClassPath
+FINER: Directory found.
+Aug 01, 2013 3:43:49 PM net.minecraft.src.ModLoader addMod
+FINE: Mod Initialized: "mod_Footprints Version 1.0" from mod_Footprints.class
+Aug 01, 2013 3:43:49 PM net.minecraft.src.ModLoader addMod
+FINE: Mod Initialized: "mod_Test null" from mod_Test.class
+Aug 01, 2013 3:43:49 PM net.minecraft.src.ModLoader init
+FINE: Mod Loaded: "mod_Footprints Version 1.0"
+Aug 01, 2013 3:43:49 PM net.minecraft.src.ModLoader init
+FINE: Mod Loaded: "mod_Test null"
+Aug 01, 2013 3:43:49 PM net.minecraft.src.ModLoader addAllRenderers
+FINE: Initialized

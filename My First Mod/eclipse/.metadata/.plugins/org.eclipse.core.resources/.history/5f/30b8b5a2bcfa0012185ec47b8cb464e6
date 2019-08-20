@@ -1,0 +1,16 @@
+package net.minecraft.src;
+
+public class DarkPotato extends Item {
+
+	protected DarkPotato(int par1) {
+		super(par1);
+		// TODO Auto-generated constructor stub
+	}
+    public ItemStack onItemRightClick(ItemStack par1ItemStack, World par2World, EntityPlayer par3EntityPlayer)
+    {
+    	World w = par3EntityPlayer.worldObj;
+    	w.createExplosion(par3EntityPlayer,par3EntityPlayer.posX, par3EntityPlayer.posY, par3EntityPlayer.posZ, 8.0F, true);
+        return par1ItemStack;
+    }
+
+}
